@@ -17,30 +17,22 @@ public class Program {
         x = y;
         y = temp;
         System.out.printf("X : %d, Y : %d\n", x, y);
-
-
         // Scanner Class (Taking Input)
         // import Scanner class and make a object
         Scanner scan = new Scanner(System.in);
-
         // First method nextLine() -> Takes input String
         System.out.println("Enter Your Name : ");
         String name = scan.nextLine();
-
         // Next method is take input of int using nextInt();
         System.out.println("Enter Your Age : ");
         int age = scan.nextInt();
-
         // I have to use nextLine() to take input again
         scan.nextLine();
-
         System.out.println("Enter Something");
         String some = scan.nextLine();
-
         System.out.println("Your Name : " + name);
         System.out.println("Your Age : " + age);
         System.out.println("Something  " + some);
-
         */
 
         // To make a Simple GUL Dialoge Box
