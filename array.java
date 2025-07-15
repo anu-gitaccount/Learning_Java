@@ -46,10 +46,7 @@ public class array {
         }
 
 
-        // Next Topic String Methods
-        // String = Refrence data type
 
-        // boolean result =  str.equal(string, var);
 
     }
 }
