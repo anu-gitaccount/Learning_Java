@@ -23,10 +23,37 @@ public class array_list {
         food.remove(1);
 
         // .clear()  removes all the element
-            food.clear();
+            //food.clear();
 
         for(int i = 0; i < food.size(); i++) {
             System.out.println(food.get(i));
         }
+
+        ArrayList<ArrayList<Integer>> grid = new ArrayList<ArrayList<Integer>>();
+
+        ArrayList<Integer> num1 = new ArrayList<Integer>();
+        num1.add(1);
+        num1.add(2);
+        num1.add(3);
+
+
+        ArrayList<Integer> num2 = new ArrayList<Integer>();
+        num2.add(4);
+        num2.add(5);
+        num2.add(6);
+
+        ArrayList<Integer> num3 = new ArrayList<Integer>();
+        num3.add(7);
+        num3.add(8);
+        num3.add(9);
+
+
+        grid.add(num1);
+        grid.add(num2);
+        grid.add(num3);
+
+        System.out.println(grid);
+
+
     }
 }
