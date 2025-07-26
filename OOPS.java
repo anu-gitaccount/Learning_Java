@@ -11,5 +11,12 @@ public class OOPS {
 
         new_obj.start();
 
+        // New class Object that can have different value to different obj
+
+        Constructor_Class obj = new Constructor_Class(10, 20, '+');
+
+        int add = obj.operation();
+        System.out.println(add);
+
     }
 }
